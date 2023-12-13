@@ -1,3 +1,4 @@
+# Import necessary libraries
 import streamlit as st
 
 # Define the Streamlit app
@@ -18,3 +19,7 @@ def main():
 # Function to find the largest number among three
 def find_largest(num1, num2, num3):
     return max(num1, num2, num3)
+
+# Run the Streamlit app
+if __name__ == "__main__":
+    main()
